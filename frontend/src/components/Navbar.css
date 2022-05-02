@@ -1,0 +1,68 @@
+.navbar {
+  position: fixed;
+  bottom: 0.75em;
+  height: 4.25rem;
+  width: max-content;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  border-radius: 2rem;
+  background-color: hsla(244, 12%, 53%, 0.65);
+  backdrop-filter: blur(0.6rem);
+  box-shadow: 0 8px 32px hsla(231, 44%, 45%, 0.2);
+
+  max-width: 27rem;
+  display: block;
+  z-index: 10000;
+}
+
+.navbar-list {
+  border-radius: 2rem;
+
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 0.3em;
+  padding-inline: 0.6em;
+}
+
+.nav-item {
+  padding: 0.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-inline: 0.25em;
+  border-radius: 50%;
+  color: #f4f5f9;
+  transition: all 350ms ease-in-out;
+}
+
+.nav-item:hover {
+  background-color: hsla(244, 12%, 53%, 0.65);
+
+  color: #fff !important;
+}
+
+.navbar-icon {
+  height: 1.4em;
+  width: 1.4em;
+  display: block;
+}
+
+.nav-item-active {
+  background-color: hsla(244, 12%, 53%, 0.65);
+  color: #fff !important;
+}
+
+@media screen and (max-width: 380px) {
+  .navbar {
+    zoom: 0.85;
+    width: 98vw !important;
+  }
+}

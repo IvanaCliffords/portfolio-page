@@ -1,0 +1,117 @@
+.skills {
+  width: 100%;
+  background-color: var(--dark);
+  color: var(--light);
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Montserrat", sans-serif;
+  /* padding:  2em; */
+  position: relative;
+  margin: 3rem 0;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4em auto !important;
+  width: 100%;
+  gap: 0.8rem !important;
+  overflow: hidden;
+  position: relative;
+  padding: 2em 0;
+}
+
+.skill-unit {
+  width: 16.7rem;
+  height: 16.7rem;
+  border: 1.7px solid var(--light-gray);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 1.4rem;
+  transition: all 200ms ease-in-out;
+}
+
+.skills-icon {
+  height: 6rem;
+  width: 6rem;
+}
+
+.text {
+  text-transform: lowercase;
+  font-size: 1rem;
+  letter-spacing: 1.9px;
+  font-weight: 500;
+}
+.skill-name {
+  font-size: 1.4rem;
+  position: relative;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.first-container .text {
+  color: var(--first);
+}
+
+.second-container .text {
+  color: var(--second);
+}
+
+.third-container .text {
+  color: var(--third);
+}
+
+.fourth-container .text {
+  color: var(--fourth);
+}
+
+.skill-unit:hover .text {
+  color: var(--light);
+}
+
+.first-container:hover {
+  background-color: var(--first);
+  border: 2px solid var(--first);
+}
+.second-container:hover {
+  background-color: var(--second);
+  border: 2px solid var(--second);
+}
+
+.third-container:hover {
+  background-color: var(--third);
+  border: 2px solid var(--third);
+}
+
+.fourth-container:hover {
+  background-color: var(--fourth);
+  border: 2px solid var(--fourth);
+}
+.fourth-container:hover .text,
+.fourth-container:hover .skill-name,
+.fourth-container:hover .skills-icon {
+  color: var(--dark);
+}
+
+@media screen and (min-width: 620px) {
+ 
+  .skills-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: max-content;
+    padding: 6em 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: max-content;
+  }
+}

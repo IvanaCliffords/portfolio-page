@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --first: rgb(0, 153, 153);
+  --second: rgb(204, 1, 203);
+  --third: rgb(76, 82, 221);
+  /* --fourth: rgb(232, 95, 0); */
+
+  --fourth: rgb(255, 180, 88);
+  --fifth: rgb(255, 69, 107);
+  --dark: #060606;
+  --light: rgb(244, 245, 249);
+  --light-gray: rgb(123, 121, 150);
+}
+
+.first-background {
+  background-color: var(--first);
+}
+.second-background {
+  background-color: var(--second);
+}
+.third-background {
+  background-color: var(--third);
+}
+.fourth-background {
+  background-color: var(--fourth);
+}
+.fifth-background {
+  background-color: var(--fifth);
+}
+
+.custom-shape-divider-top-1651453844 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+}
+
+.custom-shape-divider-top-1651453844 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .wave-svg {
+      width: calc(126% + 1.3px);
+      height: 70px;
+  }
+}
+
+

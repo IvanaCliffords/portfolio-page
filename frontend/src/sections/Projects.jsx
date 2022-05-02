@@ -1,0 +1,198 @@
+import React, { useEffect } from "react";
+import "./Projects.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { BsGithub } from "react-icons/bs";
+
+const Projects = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
+  return (
+    <div className="projects" id="projects">
+      {/* ---------------------------------------------------------------------- */}
+
+      <div
+        className="project-item project-item-one"
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in"
+        data-aos-duration="600"
+        data-aos-delay="200"
+        data-aos-once="true"
+      >
+        <div className="project-content">
+          <div className="project-text">
+            <p className="project-subtitle">Personal project</p>
+            <h2 className="project-title">E-commerce Store</h2>
+            <span className="project-tech"> ReactJS </span>
+            <span className="project-tech"> React Bootstrap </span>
+            <span className="project-tech"> CSS </span>
+            <span className="project-tech"> NodeJS </span>
+            <span className="project-tech"> MongoDB </span>
+
+            <span className="project-tech">Heroku </span>
+
+            <p className="project-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
+              sit amet
+            </p>
+          </div>
+          <div div className="project-links">
+            <a
+              href="https://github.com/IvanaCliffords/e-commerce-website"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a
+              href="https://drippy-store.herokuapp.com"
+              className="projects-cta cta"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span>Website</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div className="project-img-wrapper">
+          <div
+            style={{
+              backgroundImage: "url(/images/project-one.jpeg)",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "30px",
+            }}
+            className="project-img"
+          >
+            {" "}
+          </div>
+        </div>
+      </div>
+
+      {/* ---------------------------------------------------------------------- */}
+
+      <div
+        className="project-item project-item-two"
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in"
+        data-aos-duration="600"
+        data-aos-delay="700"
+        data-aos-once="true"
+      >
+        <div className="project-content">
+          <div className="project-text">
+            <p className="project-subtitle">Personal project</p>
+            <h2 className="project-title">Travelling App</h2>
+            <span className="project-tech">HTML</span>
+            <span className="project-tech">CSS</span>
+            <span className="project-tech">Firebase</span>
+            <p className="project-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
+              sit amet
+            </p>
+          </div>
+          <div div className="project-links">
+            <a
+              href="https://github.com/IvanaCliffords"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a href="/" className="projects-cta cta" rel="noreferrer noopener">
+              <span>Website</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className="project-img-wrapper">
+          <div
+            style={{
+              backgroundImage: "url(/images/project-one.jpeg)",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "30px",
+            }}
+            className="project-img"
+          >
+            {" "}
+          </div>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------------- */}
+
+      <div
+        className="project-item project-item-three"
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in"
+        data-aos-duration="600"
+        data-aos-delay="1200"
+        data-aos-once="true"
+      >
+        <div className="project-content">
+          <div className="project-text">
+            <p className="project-subtitle">Personal project</p>
+            <h2 className="project-title">Project Name 1</h2>
+            <span className="project-tech">HTML</span>
+            <span className="project-tech">CSS</span>
+            <span className="project-tech">Firebase</span>
+            <p className="project-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
+              sit amet
+            </p>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/IvanaCliffords"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a href="/" className="projects-cta cta" rel="noreferrer noopener">
+              <span>Website</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className="project-img-wrapper">
+          <div
+            style={{
+              backgroundImage: "url(/images/project-one.jpeg)",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              borderRadius: "30px",
+            }}
+            className="project-img"
+          ></div>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------------- */}
+    </div>
+  );
+};
+
+export default Projects;
