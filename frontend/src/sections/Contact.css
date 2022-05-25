@@ -21,10 +21,10 @@
   color: var(--dark);
 }
 .contact-cta::before {
-  background-color: var(--second);
+  background-color: var(--second) !important;
 }
 .contact-cta:hover::before {
-  background-color: var(--second);
+  background-color: var(--second) !important;
 }
 .contact-h2 {
   font-size: 3.2em;
@@ -97,4 +97,8 @@
     height: 100%;
     margin-top: 5%;
   }
+
+.contact-h2 {
+  font-weight: 600;
+}
 }

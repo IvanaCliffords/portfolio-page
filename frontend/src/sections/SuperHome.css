@@ -1,0 +1,180 @@
+.super-home {
+  display: flex;
+}
+
+.home-img {
+display: none;
+}
+
+
+
+.scrolling-pages > div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ======================================================== */
+
+.home-intro {
+  position: relative;
+  width: 100%;
+}
+
+.home-h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.home-par-2 {
+  font-size: 1.1em;
+  letter-spacing: 1.3px;
+  text-transform: lowercase;
+}
+.ivana {
+  color: var(--third);
+  font-weight: 600;
+}
+
+.home-contact {
+  width: 100%;
+}
+
+.home-contact-links {
+  display: inline-block;
+  color: #000000;
+  margin: 2em 0;
+  align-items: center;
+  justify-content: left;
+}
+
+.home-contact-links-2 {
+  margin: 2em 1em;
+}
+
+.cta {
+  position: relative;
+  padding: 15px 17px;
+  transition: all 250ms ease;
+}
+.cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 24px;
+  background-color: var(--third);
+  width: 48px;
+  height: 48px;
+  transition: all 400ms ease;
+}
+.cta span {
+  position: relative;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  margin: auto;
+  font-weight: 600;
+  transition: all 300ms ease-in-out 100ms;
+}
+
+.cta-svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 400ms ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:hover::before {
+  width: 100%;
+  background: var(--third);
+}
+
+/* ================================ */
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.about-ul,
+.about-par {
+  font-size: 1.05rem;
+
+  line-height: 2rem;
+  font-weight: 300;
+  padding-right: 2rem;
+}
+.about-ul {
+  margin-top: -3rem;
+}
+.about-icon {
+  height: 25px;
+  width: 25px;
+  color: var(--third);
+}
+
+@media screen and (min-width: 1020px) {
+  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* mess with the scrolling  */
+
+
+  .super-home {
+    height: 300vh;
+    overflow: hidden;
+  }
+
+  .home-img {
+    display: block;
+    width: 80%;
+    height: 100vh;
+    margin-bottom: 0 !important;
+  }
+
+  .scrolling-pages {
+    width: 70% !important;
+  }
+
+
+
+  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  .home-content {
+    width: 80%;
+    height: 40vh;
+    padding: 0;
+  }
+
+  .home-par-1,
+  .home-h1,
+  .home-par-2 {
+    zoom: 1.1;
+  }
+  .about-par,
+  .about-ul {
+    zoom: 1.05;
+    margin-right: 1rem;
+  }
+}
+

@@ -1,17 +1,16 @@
 import Navbar from "./components/Navbar";
-import Home from "./sections/Home";
-import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import SuperHome from "./sections/SuperHome";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <About />
 
-      
+      <SuperHome />
+
+
       <Skills />
 
       <Projects />

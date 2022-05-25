@@ -78,7 +78,7 @@ const Navbar = ({ click, show }) => {
             duration={500}
             className="nav-item"
             activeClass="nav-item-active"
-            offset={0}
+            offset={-40}
             onClick={click}
           >
               <UilChat className="navbar-icon" />

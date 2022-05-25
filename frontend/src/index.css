@@ -45,32 +45,5 @@ body {
   background-color: var(--fifth);
 }
 
-.custom-shape-divider-top-1651453844 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.wave-svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 53px;
-}
-
-.custom-shape-divider-top-1651453844 .shape-fill {
-  fill: #FFFFFF;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .wave-svg {
-      width: calc(126% + 1.3px);
-      height: 70px;
-  }
-}
 
 

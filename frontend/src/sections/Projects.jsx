@@ -20,7 +20,7 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="200"
+        data-aos-delay="300"
         data-aos-once="true"
       >
         <div className="project-content">
@@ -36,9 +36,7 @@ const Projects = () => {
             <span className="project-tech">Heroku </span>
 
             <p className="project-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
-              sit amet
+              E-commerce React and Node project. I used Express server, useReducer hook to maintain the state of the app, Axios to make the API calls, and React-Bootstrap to style the app. It has user authentication and PayPal setup.
             </p>
           </div>
           <div div className="project-links">
@@ -88,20 +86,24 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="700"
+        data-aos-delay="600"
         data-aos-once="true"
       >
         <div className="project-content">
           <div className="project-text">
             <p className="project-subtitle">Personal project</p>
-            <h2 className="project-title">Travelling App</h2>
-            <span className="project-tech">HTML</span>
+            <h2 className="project-title">Feeling Good App</h2>
+            <span className="project-tech">React JS</span>
             <span className="project-tech">CSS</span>
-            <span className="project-tech">Firebase</span>
+            <span className="project-tech">Material UI</span>
+            <span className="project-tech">Node</span>
+            <span className="project-tech">ExpressJS</span>
+            <span className="project-tech">MongoDB</span>
+
+
+
             <p className="project-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
-              sit amet
+              MERN app that uses Redux to maintain state. It portrays CRUD functionalities, since users can create posts, upload images, edit and delete the posts. 
             </p>
           </div>
           <div div className="project-links">
@@ -124,7 +126,7 @@ const Projects = () => {
         <div className="project-img-wrapper">
           <div
             style={{
-              backgroundImage: "url(/images/project-one.jpeg)",
+              backgroundImage: "url(/images/project-two.jpeg)",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
@@ -144,7 +146,7 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="1200"
+        data-aos-delay="900"
         data-aos-once="true"
       >
         <div className="project-content">
