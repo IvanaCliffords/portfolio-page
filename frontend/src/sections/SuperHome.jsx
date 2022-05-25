@@ -154,17 +154,7 @@ const Home = () => {
               and efficiency.
             </p>
             <br />
-            <p
-              className="about-par"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in"
-              data-aos-duration="600"
-              data-aos-delay="500"
-              data-aos-once="true"
-            >
-              I'm <span className="ivana">Garfield</span>'s mom.
-            </p>
+            
           </div>
 
           <div className="about-education">

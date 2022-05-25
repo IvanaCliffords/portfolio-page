@@ -36,7 +36,10 @@ const Projects = () => {
             <span className="project-tech">Heroku </span>
 
             <p className="project-desc">
-              E-commerce React and Node project. I used Express server, useReducer hook to maintain the state of the app, Axios to make the API calls, and React-Bootstrap to style the app. It has user authentication and PayPal setup.
+              E-commerce React and Node project. I used Express server,
+              useReducer hook to maintain the state of the app, Axios to make
+              the API calls, and React-Bootstrap to style the app. It has user
+              authentication and PayPal setup.
             </p>
           </div>
           <div div className="project-links">
@@ -54,7 +57,12 @@ const Projects = () => {
               rel="noreferrer noopener"
             >
               <span>Website</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+              <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+                className="cta-svg"
+              >
                 <path d="M1,5 L11,5"></path>
                 <polyline points="8 1 12 5 8 9"></polyline>
               </svg>
@@ -99,24 +107,35 @@ const Projects = () => {
             <span className="project-tech">Node</span>
             <span className="project-tech">ExpressJS</span>
             <span className="project-tech">MongoDB</span>
-
-
-
+            <span className="project-tech">Heroku</span>
             <p className="project-desc">
-              MERN app that uses Redux to maintain state. It portrays CRUD functionalities, since users can create posts, upload images, edit and delete the posts. 
+              MERN app that uses Redux to maintain state. It portrays CRUD
+              functionalities, since users can create posts, upload images, edit
+              and delete the posts. It also makes request to Quotes API.
             </p>
           </div>
           <div div className="project-links">
             <a
-              href="https://github.com/IvanaCliffords"
+              href="https://github.com/IvanaCliffords/feel-good-app"
               target="_blank"
               rel="noreferrer noopener"
             >
               <BsGithub className="project-icon" />
             </a>
-            <a href="/" className="projects-cta cta" rel="noreferrer noopener">
+            <a
+              href="https://feel-good-app.herokuapp.com/"
+              className="projects-cta cta"
+              rel="noreferrer noopener"
+              target="_blank"
+
+            >
               <span>Website</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+              <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+                className="cta-svg"
+              >
                 <path d="M1,5 L11,5"></path>
                 <polyline points="8 1 12 5 8 9"></polyline>
               </svg>
@@ -152,14 +171,13 @@ const Projects = () => {
         <div className="project-content">
           <div className="project-text">
             <p className="project-subtitle">Personal project</p>
-            <h2 className="project-title">Project Name 1</h2>
+            <h2 className="project-title">FreeWater Website</h2>
+            <span className="project-tech">Wordpress</span>
             <span className="project-tech">HTML</span>
             <span className="project-tech">CSS</span>
-            <span className="project-tech">Firebase</span>
             <p className="project-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Pariaturconsectetur adipisicing elit. Pariatur Lorem ipsum, dolor
-              sit amet
+              I helped design and create a frontend of a wordpress website. I
+              also used some custom CSS to create more personalized design.
             </p>
           </div>
           <div className="project-links">
@@ -170,9 +188,19 @@ const Projects = () => {
             >
               <BsGithub className="project-icon" />
             </a>
-            <a href="/" className="projects-cta cta" rel="noreferrer noopener">
+            <a
+              href="https://www.freewater.io/"
+              className="projects-cta cta"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               <span>Website</span>
-              <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+              <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+                className="cta-svg"
+              >
                 <path d="M1,5 L11,5"></path>
                 <polyline points="8 1 12 5 8 9"></polyline>
               </svg>
@@ -182,10 +210,10 @@ const Projects = () => {
         <div className="project-img-wrapper">
           <div
             style={{
-              backgroundImage: "url(/images/project-one.jpeg)",
+              backgroundImage: "url(/images/project-three.jpeg)",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
+              backgroundSize: "cover",
               borderRadius: "30px",
             }}
             className="project-img"
