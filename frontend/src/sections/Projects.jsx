@@ -170,7 +170,7 @@ const Projects = () => {
       >
         <div className="project-content">
           <div className="project-text">
-            <p className="project-subtitle">Personal project</p>
+            <p className="project-subtitle">Junior developer</p>
             <h2 className="project-title">FreeWater Website</h2>
             <span className="project-tech">Wordpress</span>
             <span className="project-tech">HTML</span>
