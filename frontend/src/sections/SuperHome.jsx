@@ -29,6 +29,11 @@ const Home = () => {
         <div className="scrolling-pages">
           <div className="home-content" id="home">
             <div className="home-intro">
+              <img
+                className="home-img-mobile"
+                src={`${process.env.PUBLIC_URL}/images/hero-img-mobile.jpeg`}
+                alt="Colorful artistic face"
+              />
               <p
                 className="home-h1"
                 data-aos="fade-zoom-in"
@@ -154,7 +159,6 @@ const Home = () => {
               and efficiency.
             </p>
             <br />
-            
           </div>
 
           <div className="about-education">

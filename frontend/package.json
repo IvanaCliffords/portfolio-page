@@ -1,6 +1,7 @@
 {
   "name": "pleaseportfolio",
   "version": "0.1.0",
+  "homepage": "http://ivanacliffords.com",
   "private": true,
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",

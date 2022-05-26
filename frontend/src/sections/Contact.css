@@ -5,6 +5,7 @@
   padding: 2em 1.9em;
   align-items: center !important;
   justify-content: center;
+  overflow: hidden;
 }
 
 .contact-info-div {
