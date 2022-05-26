@@ -57,6 +57,8 @@
 
 .home-contact {
   width: 100%;
+  margin-inline: 40px;
+
 }
 
 .home-contact-links {
@@ -65,7 +67,6 @@
   margin: 2em 0;
   align-items: center;
   justify-content: left;
-  margin-inline: 40px;
   
 }
 
@@ -159,7 +160,7 @@
   .home-par-2,
   .about-par,
   .about-ul, 
-  .home-contact-links  {
+  .home-contact-links   {
     padding-right: 80px;
   }
 }
@@ -177,7 +178,7 @@
   }
   .home-img {
     display: block;
-    width: 80%;
+    width: 70%;
     height: 100vh;
     margin-bottom: 0 !important;
   }
