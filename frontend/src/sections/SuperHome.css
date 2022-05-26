@@ -41,14 +41,14 @@
 .home-h1 {
   font-size: 3em;
   font-weight: 500;
-  padding-inline: 30px;
+  padding-inline: 40px;
 }
 
 .home-par-2 {
   font-size: 1.1em;
   letter-spacing: 1.3px;
   text-transform: lowercase;
-  padding-inline: 30px;
+  padding-inline: 40px;
 }
 .ivana {
   color: var(--third);
@@ -57,7 +57,6 @@
 
 .home-contact {
   width: 100%;
-  padding-inline: 30px;
 }
 
 .home-contact-links {
@@ -66,6 +65,8 @@
   margin: 2em 0;
   align-items: center;
   justify-content: left;
+  margin-inline: 40px;
+  
 }
 
 .home-contact-links-2 {
@@ -126,19 +127,19 @@
   display: flex;
   flex-direction: column;
   margin: 1em;
+  overflow: hidden;
 }
 
 .about-ul,
 .about-par {
   font-size: 1.05rem;
-
   line-height: 2rem;
   font-weight: 300;
-  padding-right: 2rem;
+  padding-inline: 40px
 }
 .about-ul {
   margin-top: -3rem;
-  padding-inline: 30px;
+  padding-inline: 40px;
 }
 
 .about-icon {
