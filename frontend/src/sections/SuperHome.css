@@ -156,12 +156,12 @@
   .home-h1,
   .home-par-2,
   .home-contact-links {
-    padding-left: 80px;
+    padding-inline: 80px;
   }
 
   .about-par,
   .about-ul {
-    padding-left: 70px;
+    padding-inline: 70px;
   }
 }
 
