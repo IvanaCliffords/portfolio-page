@@ -176,8 +176,8 @@ const Projects = () => {
             <span className="project-tech">HTML</span>
             <span className="project-tech">CSS</span>
             <p className="project-desc">
-              I helped design and create a frontend of a wordpress website. I
-              also used some custom CSS to create more personalized design.
+              I designed and created a frontend of a wordpress website. I
+              added new functionalities and wrote custom CSS to create more personalized design. The website will be launched mid-June.
             </p>
           </div>
           <div className="project-links">

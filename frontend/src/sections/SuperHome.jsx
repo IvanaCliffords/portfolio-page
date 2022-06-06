@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <section className="super-home">
       <Controller>
-        <Scene triggerHook="onLeave" duration={"200%"} pin>
+        <Scene triggerHook="onLeave" duration={"300%"} pin>
           <img
             className="home-img"
             src={`${process.env.PUBLIC_URL}/images/hero-img.jpeg`}
@@ -131,7 +131,7 @@ const Home = () => {
               data-aos-offset="200"
               data-aos-easing="ease-in"
               data-aos-duration="600"
-              data-aos-delay="100"
+              // data-aos-delay="100"
               data-aos-once="true"
             >
               I thrive in dynamic and fast paced environments because that’s
@@ -150,7 +150,7 @@ const Home = () => {
               data-aos-offset="200"
               data-aos-easing="ease-in"
               data-aos-duration="600"
-              data-aos-delay="300"
+              // data-aos-delay="300"
               data-aos-once="true"
             >
               I'm all about{" "}
@@ -168,7 +168,7 @@ const Home = () => {
                 data-aos-offset="200"
                 data-aos-easing="ease-in"
                 data-aos-duration="600"
-                data-aos-delay="100"
+                // data-aos-delay="100"
                 data-aos-once="true"
               >
                 <BsFillBookmarkFill className="about-icon" /> MIT xPRO{" "}
@@ -182,7 +182,7 @@ const Home = () => {
                 data-aos-offset="200"
                 data-aos-easing="ease-in"
                 data-aos-duration="600"
-                data-aos-delay="250"
+                // data-aos-delay="250"
                 data-aos-once="true"
               >
                 <BsFillBookmarkFill className="about-icon" /> University of
@@ -193,7 +193,7 @@ const Home = () => {
                 data-aos-offset="200"
                 data-aos-easing="ease-in"
                 data-aos-duration="600"
-                data-aos-delay="400"
+                // data-aos-delay="400"
                 data-aos-once="true"
               >
                 <BsFillBookmarkFill className="about-icon" /> Lived in{" "}
