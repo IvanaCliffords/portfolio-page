@@ -24,8 +24,21 @@
 .contact-cta::before {
   background-color: var(--second) !important;
 }
+
 .contact-cta:hover::before {
   background-color: var(--second) !important;
+}
+.special-contact-cta {
+  display: inline-block !important;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.special-contact-cta::before {
+  background-color: var(--third) !important;
+}
+
+.special-contact-cta:hover::before {
+  background-color: var(--third) !important;
 }
 .contact-h2 {
   font-size: 3.2em;

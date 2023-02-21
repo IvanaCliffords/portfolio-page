@@ -70,7 +70,7 @@ const Home = () => {
             </div>
             <div className="home-contact">
               <div
-                className="home-contact-links cta"
+                className="contact-cta special-contact-cta cta"
                 data-aos="fade-zoom-in"
                 data-aos-offset="200"
                 data-aos-easing="ease-in"
@@ -102,7 +102,8 @@ const Home = () => {
               <a
                 href={Ivana_Cliffords_Resume}
                 download
-                className="home-contact-links home-contact-links-2 cta"
+                // className="home-contact-links home-contact-links-2 cta"
+                className="contact-cta special-contact-cta cta"
                 data-aos="fade-zoom-in"
                 data-aos-offset="200"
                 data-aos-easing="ease-in"

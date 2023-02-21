@@ -13,6 +13,136 @@ const Projects = () => {
   return (
     <div className="projects" id="projects">
       {/* ---------------------------------------------------------------------- */}
+      <div
+        className="project-item project-item-four"
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in"
+        data-aos-duration="600"
+        data-aos-delay="300"
+        data-aos-once="true"
+      >
+        <div className="project-content">
+          <div className="project-text">
+            <p className="project-subtitle">Frontend Developer Consultant</p>
+            <h2 className="project-title">ROI Calculator</h2>
+            <span className="project-tech">HTML</span>
+            <span className="project-tech">SCSS</span>
+            <span className="project-tech">ReactJS</span>
+            <span className="project-tech">MaterialUI</span>
+            <span className="project-tech">ChartJS</span>
+
+            <p className="project-desc">
+              I designed and developed a ROI tool using React JS,
+              utilizing useContext and useReducer for state management. Material
+              UI was used for form components and Chart JS for data
+              visualization.
+            </p>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/IvanaCliffords"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a
+              href="https://ivanacliffords.github.io/calc-roi/"
+              className="projects-cta cta"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <span>Website</span>
+              <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+                className="cta-svg"
+              >
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className="project-img-wrapper">
+          <div
+            style={{
+              backgroundImage: "url(/images/project-four.jpeg)",
+              backgroundPosition: "center",
+              backgroundColor: "#fff",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "30px",
+            }}
+            className="project-img"
+          ></div>
+        </div>
+      </div>
+      <div
+        className="project-item project-item-three"
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in"
+        data-aos-duration="600"
+        data-aos-delay="600"
+        data-aos-once="true"
+      >
+        <div className="project-content">
+          <div className="project-text">
+            <p className="project-subtitle">Junior developer</p>
+            <h2 className="project-title">FreeWater Website</h2>
+            <span className="project-tech">Wordpress</span>
+            <span className="project-tech">HTML</span>
+            <span className="project-tech">CSS</span>
+            <p className="project-desc">
+              I designed and created a frontend of a wordpress website. I added
+              new functionalities and wrote custom CSS to create more
+              personalized design.
+            </p>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/IvanaCliffords"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a
+              href="https://www.freewater.io/"
+              className="projects-cta cta"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <span>Website</span>
+              <svg
+                width="13px"
+                height="10px"
+                viewBox="0 0 13 10"
+                className="cta-svg"
+              >
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className="project-img-wrapper">
+          <div
+            style={{
+              backgroundImage: "url(/images/email-cartons.png)",
+              backgroundPosition: "center",
+              backgroundColor: "#fff",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "30px",
+            }}
+            className="project-img"
+          ></div>
+        </div>
+      </div>
 
       <div
         className="project-item project-item-one"
@@ -20,7 +150,7 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="300"
+        data-aos-delay="900"
         data-aos-once="true"
       >
         <div className="project-content">
@@ -94,7 +224,7 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="600"
+        data-aos-delay="900"
         data-aos-once="true"
       >
         <div className="project-content">
@@ -127,7 +257,6 @@ const Projects = () => {
               className="projects-cta cta"
               rel="noreferrer noopener"
               target="_blank"
-
             >
               <span>Website</span>
               <svg
@@ -159,70 +288,10 @@ const Projects = () => {
       </div>
       {/* ---------------------------------------------------------------------- */}
 
-      <div
-        className="project-item project-item-three"
-        data-aos="fade-zoom-in"
-        data-aos-offset="200"
-        data-aos-easing="ease-in"
-        data-aos-duration="600"
-        data-aos-delay="900"
-        data-aos-once="true"
-      >
-        <div className="project-content">
-          <div className="project-text">
-            <p className="project-subtitle">Junior developer</p>
-            <h2 className="project-title">FreeWater Website</h2>
-            <span className="project-tech">Wordpress</span>
-            <span className="project-tech">HTML</span>
-            <span className="project-tech">CSS</span>
-            <p className="project-desc">
-              I designed and created a frontend of a wordpress website. I
-              added new functionalities and wrote custom CSS to create more personalized design. The website will be launched mid-June.
-            </p>
-          </div>
-          <div className="project-links">
-            <a
-              href="https://github.com/IvanaCliffords"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <BsGithub className="project-icon" />
-            </a>
-            <a
-              href="https://www.freewater.io/"
-              className="projects-cta cta"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              <span>Website</span>
-              <svg
-                width="13px"
-                height="10px"
-                viewBox="0 0 13 10"
-                className="cta-svg"
-              >
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div className="project-img-wrapper">
-          <div
-            style={{
-              backgroundImage: "url(/images/project-three.jpeg)",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              borderRadius: "30px",
-            }}
-            className="project-img"
-          ></div>
-        </div>
-      </div>
       {/* ---------------------------------------------------------------------- */}
     </div>
   );
 };
 
 export default Projects;
+

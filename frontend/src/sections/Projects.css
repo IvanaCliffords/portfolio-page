@@ -109,6 +109,9 @@
 .project-item-three .project-img-wrapper::before {
   background-color: var(--third);
 }
+.project-item-four .project-img-wrapper::before {
+  background-color: var(--second);
+}
 
 
 @media screen and (min-width: 620px) {
