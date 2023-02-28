@@ -1,22 +1,16 @@
 import Navbar from "./components/Navbar";
-import Skills from "./sections/Skills";
-import Projects from "./sections/Projects";
-import Contact from "./sections/Contact";
-import SuperHome from "./sections/SuperHome";
+import Skills from "./sections/Skills/Skills";
+import Projects from "./sections/Projects/Projects";
+import Contact from "./sections/Contact/Contact";
+import SuperHome from "./sections/Home/SuperHome";
 function App() {
   return (
     <div className="App">
       <Navbar />
-
       <SuperHome />
-
-
       <Skills />
-
       <Projects />
-
       <Contact />
-
     </div>
   );
 }

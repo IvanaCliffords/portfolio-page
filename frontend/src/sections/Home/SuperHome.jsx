@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Ivana_Cliffords_Resume from "../assets/Ivana_Cliffords_Resume.pdf";
+import Ivana_Cliffords_Resume from "../../assets/Ivana_Cliffords_Resume.pdf";
 
 import { BsFillBookmarkFill } from "react-icons/bs";
 import { Controller, Scene } from "react-scrollmagic";
