@@ -69,7 +69,7 @@ const Projects = () => {
         <div className="project-img-wrapper">
           <div
             style={{
-              backgroundImage: "url(/images/project-four.jpeg)",
+              backgroundImage: "url(/images/project-four.png)",
               backgroundPosition: "center",
               backgroundColor: "#fff",
               backgroundRepeat: "no-repeat",
@@ -132,7 +132,7 @@ const Projects = () => {
         <div className="project-img-wrapper">
           <div
             style={{
-              backgroundImage: "url(/images/email-cartons.png)",
+              backgroundImage: "url(/images/project-three.png)",
               backgroundPosition: "center",
               backgroundColor: "#fff",
               backgroundRepeat: "no-repeat",
@@ -206,6 +206,7 @@ const Projects = () => {
               backgroundImage: "url(/images/project-one.jpeg)",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              backgroundColor: "#fff",
               backgroundSize: "cover",
               borderRadius: "30px",
             }}
@@ -277,6 +278,7 @@ const Projects = () => {
               backgroundImage: "url(/images/project-two.jpeg)",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              backgroundColor: "#fff",
               backgroundSize: "cover",
               borderRadius: "30px",
             }}

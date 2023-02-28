@@ -16,6 +16,12 @@
   margin-top: 0 !important;
 }
 
+.scrolling-pages {
+  width: 100%;
+  padding-top: 50px;
+}
+
+
 .scrolling-pages > div {
   height: 55vh;
   width: 100%;
@@ -161,8 +167,9 @@
     padding-bottom: 3.1em;
   }
   .scrolling-pages > div {
-    height: 30vh;
+    height: 43vh;
     margin-left: 20%;
+    padding-top: 50px;
   }
   .home-content {
     height: 100vh !important;
@@ -198,7 +205,10 @@
 
   .scrolling-pages {
     width: 50%;
+    padding-top: 0px;
   }
+
+  
   .scrolling-pages > div {
     height: 100vh;
     width: 50%;

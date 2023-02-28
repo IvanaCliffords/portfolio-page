@@ -37,7 +37,7 @@
   transition: all 200ms ease-in-out;
 }
 
-.skills-icon {
+.skills-icon-wrapper > * {
   height: 5.1rem;
   width: 5.1rem;
 }

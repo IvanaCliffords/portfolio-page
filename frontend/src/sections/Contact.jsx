@@ -32,7 +32,11 @@ function Contact() {
         >
           Let's talk
         </h2>
-        <a href="mailto:ivana.cliffords@gmail.com" target="_blank"rel="noreferrer noopener">
+        <a
+          href="mailto:ivana.cliffords@gmail.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <p
             className="contact-info-link"
             data-aos="fade-zoom-in"
@@ -58,7 +62,12 @@ function Contact() {
           data-aos-once="true"
         >
           <span>Get in touch</span>
-          <svg width="13px" height="10px" viewBox="0 0 13 10" className="cta-svg">
+          <svg
+            width="13px"
+            height="10px"
+            viewBox="0 0 13 10"
+            className="cta-svg"
+          >
             <path d="M1,5 L11,5"></path>
             <polyline points="8 1 12 5 8 9"></polyline>
           </svg>
@@ -69,3 +78,4 @@ function Contact() {
 }
 
 export default Contact;
+
