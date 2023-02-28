@@ -171,11 +171,11 @@ export const skillsData = [
         stack: "Other", 
         id: 20,
     },
-    {
-        skillName: "Learning Python",
-        containerClassName: "third-container",
-        icon: <SiPython />,
-        stack: "Backend", 
-        id: 21,
-    },
+    // {
+    //     skillName: "Learning Python",
+    //     containerClassName: "third-container",
+    //     icon: <SiPython />,
+    //     stack: "Backend", 
+    //     id: 21,
+    // },
 ]
