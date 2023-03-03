@@ -1,3 +1,4 @@
+
 .skills {
   width: 100%;
   background-color: var(--dark);
@@ -7,6 +8,8 @@
   font-family: "Montserrat", sans-serif;
   position: relative;
   margin: 0 !important;
+  
+  height: 115rem;
 }
 
 .skills-wrapper {
@@ -19,7 +22,8 @@
   position: relative;
   padding: 2em 0;
   justify-content: center;
-
+  height: fit-content;
+ 
 }
 
 .skill-unit {
@@ -102,7 +106,9 @@
 }
 
 @media screen and (min-width: 620px) {
- 
+ .skills {
+  height: 160rem;
+ }
   .skills-wrapper {
     grid-template-columns: repeat(2, 1fr);
     max-width: max-content;
@@ -121,4 +127,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: max-content;
   }
+  .skills {
+    height: 120rem;
+   }
 }

@@ -34,7 +34,7 @@ const Navbar = ({ click, show }) => {
             duration={500}
             className="nav-item"
             activeClass="nav-item-active"
-            offset={0}
+            offset={50}
             onClick={click}
           >
               <FiUser className="navbar-icon" />
@@ -78,7 +78,7 @@ const Navbar = ({ click, show }) => {
             duration={500}
             className="nav-item"
             activeClass="nav-item-active"
-            offset={-40}
+            offset={-60}
             onClick={click}
           >
               <UilChat className="navbar-icon" />

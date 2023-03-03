@@ -99,7 +99,7 @@ const Projects = () => {
             <p className="project-desc">
               I designed and created a frontend of a wordpress website. I added
               new functionalities and wrote custom CSS to create more
-              personalized design.
+              personalized design. The website had 125,000 users in a month.
             </p>
           </div>
           <div className="project-links">
@@ -225,7 +225,7 @@ const Projects = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
-        data-aos-delay="900"
+        data-aos-delay="700"
         data-aos-once="true"
       >
         <div className="project-content">
